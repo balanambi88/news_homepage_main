@@ -1,0 +1,102 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin:100px;
+
+}
+
+h1 {font-size: 48px;
+margin: 0;
+line-height: 1;}
+
+p { font-size: 13.5px;
+margin:0;
+color:  hsl(236, 13%, 42%);
+line-height: 1.5;
+}
+
+h2 { font-size: 30px;
+  color: hsl(35, 77%, 62%);
+}
+
+h3 { font-size: 17px;
+  color:hsl(36, 100%, 99%);}
+
+hr { 
+  height: 0px;
+  border: none;
+  border-top: 1px solid hsl(236, 13%, 42%);
+}
+
+.nav {
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.nav a {
+  float: right;
+  color: hsl(233, 8%, 79%);
+  padding: 26px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.nav img {
+  width: 62px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex {
+  flex: 1;
+  border: 2px solid yellow;
+}
+
+.big {
+  flex: 2.5 1 0;
+  margin: 10px;
+}
+.small { 
+  margin : 10px;
+  padding: 16px;
+  background-color: #030113;
+
+ }
+
+.mainpic {
+  width: 100%;
+}
+
+.grid-container { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+  margin: 10px 0 10px 0;
+}
+
+.readmore {
+  width: 150px;
+    height: 30px;
+    margin-top: 2rem;
+    background-color: #F15D53;
+    border: none;
+    color: white;
+    font-size: 10px;
+    word-spacing: 2px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:20px;
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+
+}
+
+.h2style {}
+
+.h3style { color: black;}
